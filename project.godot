@@ -14,6 +14,17 @@ config/name="top_down_networked"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=940
+window/size/viewport_height=560
+
 [dotnet]
 
 project/assembly_name="top_down_networked"
+
+[file_customization]
+
+folder_colors={
+"res://Game/": "green"
+}
